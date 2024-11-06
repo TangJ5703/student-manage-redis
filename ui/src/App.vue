@@ -165,7 +165,7 @@ getList()
       <el-form-item label="姓名" prop="name">
         <el-input v-model="form.name" placeholder="学生姓名"/>
       </el-form-item>
-      <el-form-item label="出生日期" prop="birthday">
+      <el-form-item label-width="100px" label="出生日期" prop="birthday">
         <el-date-picker v-model="form.birthday" value-format="YYYY-MM-DD" placeholder="出生日期"/>
       </el-form-item>
       <el-form-item label="描述" prop="description">
